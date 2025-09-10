@@ -2,6 +2,9 @@
 
 Este projeto é um website institucional para a Dra. Kely Lima, fisioterapeuta especializada em fisioterapia, ventosaterapia, acupuntura e pilates. O site apresenta informações sobre serviços, depoimentos de pacientes, contato e localização das clínicas parceiras.
 
+Para visualizar o portfólio, basta acessar o seguinte link: [WebSiteFisioterapeuta](https://lggustavodev.github.io/WebSiteFisioterapeuta/)
+
+
 ## Estrutura de Pastas
 
 ```
@@ -60,6 +63,3 @@ siteKely/
 
 Desenvolvido por Luis Gustavo.
 
----
-
-Para dúvidas ou sugestões, entre em contato pelo e-mail: contato@kelylima.com
