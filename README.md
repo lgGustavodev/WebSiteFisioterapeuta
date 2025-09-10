@@ -63,6 +63,3 @@ siteKely/
 
 Desenvolvido por Luis Gustavo.
 
----
-
-Para dúvidas ou sugestões, entre em contato pelo e-mail: contato@kelylima.com
