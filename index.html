@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Fisioterapeuta especializada em fisioterapia, ventosa e acupuntura. Agende sua consulta!"
+    />
+    <meta
+      name="keywords"
+      content="fisioterapia, ventosa, acupuntura, tratamento, dor, recuperação"
+    />
+    <title>Dra. kely Lima - Fisioterapeuta Especializada</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home"
+          >Dra. <span class="text-accent">Kely Lima</span></a
+        >
+        <button
+          id="navbar-toggler"
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Depoimentos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato-e-onde">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero position-relative overflow-hidden">
+      <div class="hero-bg-carousel"></div>
+      <div class="container position-relative z-2 h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-lg-7 mx-auto hero-content text-center">
+            <h1 class="display-4 fw-bold mb-4">
+              Priorizando a qualidade de vida através da reabilitação
+            </h1>
+            <p class="lead mb-4">
+              Especializada em fisioterapia, ventosa terapia, acupuntura e
+              pilates para sua recuperação e qualidade de vida.
+            </p>
+            <a
+              href="https://wa.me/5511999999999?text=Olá! Gostaria de agendar uma consulta."
+              target="_blank"
+              class="btn btn-primary btn-lg"
+            >
+              <i class="fab fa-whatsapp me-2"></i> Agendar pelo WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-down">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h2 class="section-title">Sobre a Dra. Kely Lima</h2>
+            <p>
+              Fisioterapeuta com mais de 10 anos de experiência, especializada
+              em técnicas modernas de reabilitação e terapias complementares
+              como ventosa, acupuntura e pilates.
+            </p>
+            <p>
+              Formada pela Universidade de São Paulo (USP), com pós-graduação em
+              Fisioterapia Traumato-Ortopédica e certificações internacionais em
+              Acupuntura, Ventosaterapia e Pilates.
+            </p>
+            <p>
+              Minha missão é proporcionar tratamentos eficazes e personalizados,
+              visando sempre a recuperação completa e o bem-estar dos meus
+              pacientes.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img
+              src="src/images/kelycapa.jpg"
+              alt="Dra. Carla Silva - Fisioterapeuta"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <div class="container">
+        <h2 class="section-title text-center">Nossos Serviços</h2>
+        <div class="row">
+          <!-- Fisioterapia -->
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div
+              class="card service-card"
+              data-bs-toggle="modal"
+              data-bs-target="#fisioterapiaModal"
+            >
+              <img
+                src="src/images/kely3.jpg"
+                class="service-img"
+                alt="Fisioterapia"
+              />
+              <div class="card-body text-center">
+                <div class="service-icon">
+                  <img
+                    src="src/icons/fisioterapia.png"
+                    alt="Fisioterapia"
+                    class="service-icon-img"
+                  />
+                </div>
+                <h3 class="card-title">Fisioterapia</h3>
+                <p class="card-text">
+                  Tratamentos especializados para recuperação de lesões, dores
+                  crônicas e pós-operatórios.
+                </p>
+                <button class="btn btn-outline-primary btn-sm">
+                  Saiba mais
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ventosa -->
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div
+              class="card service-card"
+              data-bs-toggle="modal"
+              data-bs-target="#ventosaModal"
+            >
+              <img
+                src="src/images/kelyEdt1.JPG"
+                class="service-img"
+                alt="Ventosa Terapia"
+              />
+              <div class="card-body text-center">
+                <div class="service-icon">
+                  <img
+                    src="src/icons/ventosas.png"
+                    alt="Ventosa Terapia"
+                    class="service-icon-img"
+                  />
+                </div>
+                <h3 class="card-title">Ventosa Terapia</h3>
+                <p class="card-text">
+                  Técnica milenar que promove a liberação de toxinas e alívio de
+                  dores musculares.
+                </p>
+                <button class="btn btn-outline-primary btn-sm">
+                  Saiba mais
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Acupuntura -->
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div
+              class="card service-card"
+              data-bs-toggle="modal"
+              data-bs-target="#acupunturaModal"
+            >
+              <img
+                src="src/images/acupuntura.png"
+                class="service-img"
+                alt="Acupuntura"
+              />
+              <div class="card-body text-center">
+                <div class="service-icon">
+                  <img
+                    src="src/icons/agulha.png"
+                    alt="Agulha de acupuntura"
+                    class="service-icon-img"
+                  />
+                </div>
+                <h3 class="card-title">Acupuntura</h3>
+                <p class="card-text">
+                  Técnica da medicina tradicional chinesa para tratamento de
+                  diversas condições.
+                </p>
+                <button class="btn btn-outline-primary btn-sm">
+                  Saiba mais
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pilates -->
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div
+              class="card service-card"
+              data-bs-toggle="modal"
+              data-bs-target="#pilatesModal"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                class="service-img"
+                alt="Pilates"
+              />
+              <div class="card-body text-center">
+                <div class="service-icon">
+                  <img
+                    src="src/icons/pilates.png"
+                    alt="Pilates"
+                    class="service-icon-img"
+                  />
+                </div>
+                <h3 class="card-title">Pilates</h3>
+                <p class="card-text">
+                  Método de exercícios que melhora flexibilidade, força e
+                  consciência corporal.
+                </p>
+                <button class="btn btn-outline-primary btn-sm">
+                  Saiba mais
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal Fisioterapia -->
+    <div
+      class="modal fade"
+      id="fisioterapiaModal"
+      tabindex="-1"
+      aria-labelledby="fisioterapiaModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5
+              class="modal-title d-flex align-items-center"
+              id="fisioterapiaModalLabel"
+            >
+              <img
+                src="src/icons/fisioterapia.png"
+                alt="Fisioterapia"
+                style="width: 48px; height: 48px; margin-right: 1rem"
+              />
+              Fisioterapia
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- Carrossel para Fisioterapia -->
+            <div
+              id="carouselFisioterapia"
+              class="carousel slide modal-carousel mb-4"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="src/images/kely3.jpg"
+                    class="d-block w-100 modal-carousel-image"
+                    alt="Fisioterapia 1"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="src/images/fisioterapia.png"
+                    class="d-block w-100 modal-carousel-image"
+                    alt="Fisioterapia 2"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="src/images/Fisioterapia02.png"
+                    class="d-block w-100 modal-carousel-image"
+                    alt="Fisioterapia 3"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselFisioterapia"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselFisioterapia"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Próximo</span>
+              </button>
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselFisioterapia"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselFisioterapia"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselFisioterapia"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <h4>O que é?</h4>
+                <p>
+                  A fisioterapia é uma ciência da saúde que estuda, previne e
+                  trata distúrbios do movimento corporal decorrentes de
+                  alterações de órgãos e sistemas humanos.
+                </p>
+
+                <h4>Benefícios:</h4>
+                <div class="benefit-item">
+                  <span class="benefit-icon"
+                    ><i class="fas fa-check-circle"></i
+                  ></span>
+                  <span>Alívio de dores musculares e articulares</span>
+                </div>
+                <div class="benefit-item">
+                  <span class="benefit-icon"
+                    ><i class="fas fa-check-circle"></i
+                  ></span>
+                  <span>Recuperação de lesões e cirurgias</span>
+                </div>
+                <div class="benefit-item">
+                  <span class="benefit-icon"
+                    ><i class="fas fa-check-circle"></i
+                  ></span>
+                  <span>Melhora da mobilidade e flexibilidade</span>
+                </div>
+                <div class="benefit-item">
+                  <span class="benefit-icon"
+                    ><i class="fas fa-check-circle"></i
+                  ></span>
+                  <span>Prevenção de problemas posturais</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4">
+              <h4>Indicações:</h4>
+              <p>
+                A fisioterapia é indicada para tratamento de hérnia de disco,
+                lombalgia, dorsalgia, cervicalgia, tendinites, bursites,
+                artroses, distensões musculares, fraturas, luxações, entre
+                outras condições.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Fechar
+            </button>
+            <a
+              href="https://wa.me/5511999999999?text=Olá! Gostaria de mais informações sobre fisioterapia."
+              target="_blank"
+              class="btn btn-whatsapp"
+            >
+              <i class="fab fa-whatsapp me-2"></i> Falar no WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Ventosa -->
+    <div
+      class="modal fade"
+      id="ventosaModal"
+      tabindex="-1"
+      aria-labelledby="ventosaModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5
+              class="modal-title d-flex align-items-center"
+              id="ventosaModalLabel"
+            >
+              <img
+                src="src/icons/ventosas.png"
+                alt="Ventosa Terapia"
+                style="width: 48px; height: 48px; margin-right: 1rem"
+              />
+              Ventosa Terapia
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- Carrossel para Ventosa -->
+            <div
+              id="carouselVentosa"
+              class="carousel slide modal-carousel mb-4"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="src/images/kelyEdt1.JPG"
+                    class="d-block w-100 modal-carousel-image"
+                    alt="Ventosa 1"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="src/images/Ventosaterapia.png"
+                    class="d-block w-100 modal-carousel-image"
+                    alt="Ventosa 2"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="src/images/Ventosaterapia03.png"
+                    class="d-block w-100 modal-carousel-image"
+                    alt="Ventosa 3"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselVentosa"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselVentosa"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Próximo</span>
+              </button>
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselVentosa"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselVentosa"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselVentosa"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <h4>O que é?</h4>
+                <p>
+                  A ventosaterapia é uma técnica milenar da medicina tradicional
+                  chinesa que utiliza copos para criar sucção na pele,
+                  promovendo aumento do fluxo sanguíneo e liberação de toxinas.
+                </p>
+
+                <h4>Benefícios:</h4>
+                <div class="benefit-item">
+                  <span class="benefit-icon"
+                    ><i class="fas fa-check-circle"></i
+                  ></span>
+                  <span>Alívio de dores musculares e tensionais</span>
+                </div>
+                <div class="benefit-item">
+                  <span class="benefit-icon"
+                    ><i class="fas fa-check-circle"></i
+                  ></span>
+                  <span>Melhora da circulação sanguínea</span>
+                </div>
+                <div class="benefit-item">
+                  <span class="benefit-icon"
+                    ><i class="fas fa-check-circle"></i
+                  ></span>
+                  <span>Redução de inflamações</span>
+                </div>
+                <div class="benefit-item">
+                  <span class="benefit-icon"
+                    ><i class="fas fa-check-circle"></i
+                  ></span>
+                  <span>Relaxamento muscular profundo</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4">
+              <h4>Indicações:</h4>
+              <p>
+                A ventosaterapia é indicada para tratamento de dores nas costas,
+                tensão muscular, fibromialgia, celulite, problemas respiratórios
+                como asma e bronquite, e para promover relaxamento geral.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Fechar
+            </button>
+            <a
+              href="https://wa.me/5511999999999?text=Olá! Gostaria de mais informações sobre ventosaterapia."
+              target="_blank"
+              class="btn btn-whatsapp"
+            >
+              <i class="fab fa-whatsapp me-2"></i> Falar no WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Acupuntura -->
+    <div
+      class="modal fade"
+      id="acupunturaModal"
+      tabindex="-1"
+      aria-labelledby="acupunturaModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5
+              class="modal-title d-flex align-items-center"
+              id="acupunturaModalLabel"
+            >
+              <img
+                src="src/icons/agulha.png"
+                alt="Agulha de acupuntura"
+                style="width: 48px; height: 48px; margin-right: 1rem"
+              />
+              Acupuntura
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- Carrossel para Acupuntura -->
+            <div
+              id="carouselAcupuntura"
+              class="carousel slide modal-carousel mb-4"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="src/images/acupuntura.png"
+                    class="d-block w-100 modal-carousel-image"
+                    alt="Acupuntura 1"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="src/images/acupuntura02.png"
+                    class="d-block w-100 modal-carousel-image"
+                    alt="Acupuntura 2"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="src/images/acupuntura03.png"
+                    class="d-block w-100 modal-carousel-image"
+                    alt="Acupuntura 3"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselAcupuntura"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselAcupuntura"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Próximo</span>
+              </button>
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselAcupuntura"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselAcupuntura"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselAcupuntura"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <h4>O que é?</h4>
+                <p>
+                  A acupuntura é uma técnica milenar chinesa que consiste na
+                  aplicação de agulhas em pontos específicos do corpo para
+                  melhorar o fluxo de energia, tratar doenças e promover saúde.
+                </p>
+
+                <h4>Benefícios:</h4>
+                <div class="benefit-item">
+                  <span class="benefit-icon"
+                    ><i class="fas fa-check-circle"></i
+                  ></span>
+                  <span>Alívio de dores crônicas e agudas</span>
+                </div>
+                <div class="benefit-item">
+                  <span class="benefit-icon"
+                    ><i class="fas fa-check-circle"></i
+                  ></span>
+                  <span>Redução do estresse e ansiedade</span>
+                </div>
+                <div class="benefit-item">
+                  <span class="benefit-icon"
+                    ><i class="fas fa-check-circle"></i
+                  ></span>
+                  <span>Melhora da qualidade do sono</span>
+                </div>
+                <div class="benefit-item">
+                  <span class="benefit-icon"
+                    ><i class="fas fa-check-circle"></i
+                  ></span>
+                  <span>Reforço do sistema imunológico</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4">
+              <h4>Indicações:</h4>
+              <p>
+                A acupuntura é indicada para tratamento de dores em geral,
+                enxaqueca, insônia, distúrbios emocionais, problemas digestivos,
+                alergias, asma, e como complemento em tratamentos de
+                fertilidade.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Fechar
+            </button>
+            <a
+              href="https://wa.me/5511999999999?text=Olá! Gostaria de mais informações sobre acupuntura."
+              target="_blank"
+              class="btn btn-whatsapp"
+            >
+              <i class="fab fa-whatsapp me-2"></i> Falar no WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Pilates -->
+    <div
+      class="modal fade"
+      id="pilatesModal"
+      tabindex="-1"
+      aria-labelledby="pilatesModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5
+              class="modal-title d-flex align-items-center"
+              id="pilatesModalLabel"
+            >
+              <img
+                src="src/icons/pilates.png"
+                alt="Pilates"
+                style="width: 48px; height: 48px; margin-right: 1rem"
+              />
+              Pilates
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- Carrossel para Pilates -->
+            <div
+              id="carouselPilates"
+              class="carousel slide modal-carousel mb-4"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                    class="d-block w-100 modal-carousel-image"
+                    alt="Pilates 1"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="src/images/pilates02.png"
+                    class="d-block w-100 modal-carousel-image"
+                    alt="Pilates 2"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="src/images/pilates03.png"
+                    class="d-block w-100 modal-carousel-image"
+                    alt="Pilates 3"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselPilates"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselPilates"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Próximo</span>
+              </button>
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselPilates"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselPilates"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselPilates"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <h4>O que é?</h4>
+                <p>
+                  O Pilates é um método de exercícios que se concentra no
+                  fortalecimento do core, melhorando a flexibilidade, postura e
+                  consciência corporal. Desenvolvido por Joseph Pilates, combina
+                  elementos de yoga, artes marciais e meditação.
+                </p>
+
+                <h4>Benefícios:</h4>
+                <div class="benefit-item">
+                  <span class="benefit-icon"
+                    ><i class="fas fa-check-circle"></i
+                  ></span>
+                  <span>Melhora da postura e alinhamento corporal</span>
+                </div>
+                <div class="benefit-item">
+                  <span class="benefit-icon"
+                    ><i class="fas fa-check-circle"></i
+                  ></span>
+                  <span>Aumento da flexibilidade e força muscular</span>
+                </div>
+                <div class="benefit-item">
+                  <span class="benefit-icon"
+                    ><i class="fas fa-check-circle"></i
+                  ></span>
+                  <span>Alívio de dores nas costas e tensões musculares</span>
+                </div>
+                <div class="benefit-item">
+                  <span class="benefit-icon"
+                    ><i class="fas fa-check-circle"></i
+                  ></span>
+                  <span>Melhora da concentração e consciência corporal</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4">
+              <h4>Indicações:</h4>
+              <p>
+                O Pilates é indicado para reabilitação de lesões, melhora da
+                postura, condicionamento físico geral, preparação para
+                gestantes, tratamento de dores crônicas e como complemento a
+                outras modalidades esportivas.
+              </p>
+
+              <h4>Tipos de aulas:</h4>
+              <p>
+                Oferecemos aulas individuais, em dupla ou em pequenos grupos,
+                com equipamentos específicos (Reformer, Cadillac, Chair) ou no
+                solo (Mat Pilates), sempre com acompanhamento especializado.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Fechar
+            </button>
+            <a
+              href="https://wa.me/5511999999999?text=Olá! Gostaria de mais informações sobre pilates."
+              target="_blank"
+              class="btn btn-whatsapp"
+            >
+              <i class="fab fa-whatsapp me-2"></i> Falar no WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonials Carousel -->
+    <section id="testimonials" class="bg-light">
+      <div class="container">
+        <h2 class="section-title text-center">O que nossos pacientes dizem</h2>
+
+        <div class="testimonial-carousel">
+          <div
+            id="testimonialCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <!-- Testimonial 1 -->
+              <div class="carousel-item active">
+                <div class="testimonial-item">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/32.jpg"
+                    alt="Paciente 1"
+                    class="testimonial-img"
+                  />
+                  <h4>Maria Silva</h4>
+                  <p class="text-muted">Paciente de Fisioterapia</p>
+                  <p>
+                    "Excelente profissional! Tratamento eficaz e carinhoso.
+                    Recuperei totalmente minha mobilidade após a cirurgia."
+                  </p>
+                </div>
+              </div>
+
+              <!-- Testimonial 2 -->
+              <div class="carousel-item">
+                <div class="testimonial-item">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/45.jpg"
+                    alt="Paciente 2"
+                    class="testimonial-img"
+                  />
+                  <h4>João Santos</h4>
+                  <p class="text-muted">Paciente de Ventosa</p>
+                  <p>
+                    "As sessões de ventosa aliviaram minhas dores nas costas que
+                    persistiam há anos. Recomendo muito!"
+                  </p>
+                </div>
+              </div>
+
+              <!-- Testimonial 3 -->
+              <div class="carousel-item">
+                <div class="testimonial-item">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/68.jpg"
+                    alt="Paciente 3"
+                    class="testimonial-img"
+                  />
+                  <h4>Ana Costa</h4>
+                  <p class="text-muted">Paciente de Acupuntura</p>
+                  <p>
+                    "A acupuntura me ajudou com minha ansiedade e insônia. A
+                    Dra. tem uma técnica incrível e um atendimento excelente."
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#testimonialCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#testimonialCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Próximo</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato e Onde me encontrar -->
+    <section id="contato-e-onde" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <!-- Contato -->
+          <div class="col-md-6 mb-4 d-flex flex-column align-items-center">
+            <h2 class="section-title text-center">Contato</h2>
+            <div class="contact-info d-flex align-items-center mb-3">
+              <i class="fab fa-whatsapp contact-icon"></i>
+              <a
+                class="a_contato"
+                href="https://wa.me/5511999999999"
+                target="_blank"
+                >+55 (11) 99999-9999</a
+              >
+            </div>
+            <div class="contact-info d-flex align-items-center mb-3">
+              <i class="fab fa-instagram contact-icon"></i>
+              <a
+                class="a_contato"
+                href="https://instagram.com/dra.carlasilva"
+                target="_blank"
+                >@kelylima</a
+              >
+            </div>
+            <div class="contact-info d-flex align-items-center mb-3">
+              <i class="fab fa-linkedin contact-icon"></i>
+              <a
+                class="a_contato"
+                href="https://linkedin.com/in/dra-carlasilva"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </div>
+            <div class="contact-info d-flex align-items-center">
+              <i class="fas fa-envelope contact-icon"></i>
+              <a class="a_contato" href="mailto:contato@drcarlasilva.com"
+                >contato@kelylima.com</a
+              >
+            </div>
+          </div>
+
+          <!-- Onde me encontrar - AGORA EM GRID -->
+          <div class="col-md-6 mb-4">
+            <h2 class="section-title text-center">Onde me encontrar</h2>
+            <div class="clinicas-grid">
+              <!-- Empresa 1 -->
+              <div class="clinica-item">
+                <img
+                  src="src/icons/FISIOHANDS.png"
+                  alt="Logo Empresa 1"
+                  class="img-fluid mb-3"
+                  style="max-height: 80px"
+                />
+                <h4>Fisiohands</h4>
+                <p>
+                  <i class="fab fa-instagram me-2"></i>
+                  <a
+                    href="https://www.instagram.com/fisiohands.especializada/"
+                    target="_blank"
+                    >@fisiohands.especializada</a
+                  >
+                </p>
+                <p><i class="fas fa-phone me-2"></i>(11) 3333-4444</p>
+              </div>
+
+              <!-- Empresa 2 -->
+              <div class="clinica-item">
+                <img
+                  src="src/icons/TWO.png"
+                  alt="Logo Empresa 2"
+                  class="img-fluid mb-3"
+                  style="max-height: 80px"
+                />
+                <h4>Two.Pilates</h4>
+                <p>
+                  <i class="fab fa-instagram me-2"></i>
+                  <a
+                    href="https://www.instagram.com/two.pilates/"
+                    target="_blank"
+                    >@two.pilates</a
+                  >
+                </p>
+                <p><i class="fas fa-phone me-2"></i>(11) 5555-6666</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WhatsApp Float -->
+    <a
+      href="https://wa.me/5511999999999?text=Olá! Gostaria de agendar uma consulta."
+      target="_blank"
+      class="whatsapp-float"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <h5>Dra. Kely Lima</h5>
+            <p>
+              Fisioterapeuta especializada em proporcionar o melhor tratamento
+              para sua recuperação e bem-estar.
+            </p>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h5>Links Rápidos</h5>
+            <ul class="list-unstyled">
+              <li><a href="#home" class="footer-link">Início</a></li>
+              <li><a href="#about" class="footer-link">Sobre</a></li>
+              <li><a href="#services" class="footer-link">Serviços</a></li>
+              <li><a href="#contato-e-onde" class="footer-link">Contato</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h5>Redes Sociais</h5>
+            <div class="footer-social">
+              <p>Siga-nos nas redes sociais</p>
+              <div class="social-icons">
+                <a href="#" class="text-light fs-4"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" class="text-light fs-4"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" class="text-light fs-4"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="mt-4" />
+        <div class="text-center">
+          <p>&copy; 2023 Dra. Kely Lima</p>
+          <p>&copy;Desenvolvido por Luis Gustavo</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap & JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
